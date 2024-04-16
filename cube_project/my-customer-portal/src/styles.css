@@ -1,0 +1,38 @@
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .customer-list {
+    width: 30%;
+    background-color: #e4e3eff7;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .customer-card {
+    background-color: #ebe1e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .customer-card.selected {
+    background-color: #e0e0e027;
+  }
+  
+  .customer-details {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+  }
